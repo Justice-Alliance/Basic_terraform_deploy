@@ -9,3 +9,7 @@ output "public_subnet_1_cidr" {
 output "private_subnet_1_cidr" {
     value = aws_subnet.module_private_subnet_1.cidr_block 
 }
+
+output "key_pair" {
+    value = aws_key_pair.generated_key
+}
