@@ -10,8 +10,8 @@ terraform {
 # Creation d'un VPC
 provider "aws" {
     region = var.region
-    access_key = "AKIAQ2HXPMTCJZRJT4UG"
-    secret_key = "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"
+    access_key = "***********************"
+    secret_key = "***********************************"
 }
 
  resource "random_pet" "stack_name" {
