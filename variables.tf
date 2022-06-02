@@ -64,3 +64,8 @@ variable "ec2_instance_max_size" {
   description = "The maximum number of the EC2 instances"
   default     = 3
 }
+
+variable "web_server_port" {
+  description = "The TCP port the server will use for HTTP requests"
+  default     = 8080
+}
